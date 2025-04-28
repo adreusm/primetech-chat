@@ -1,0 +1,15 @@
+{
+    "name": "admin/primetech-chat",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Абдурахман Усманов",
+            "email": "ausmanov706@gmail.com"
+        }
+    ],
+    "require": {}
+}

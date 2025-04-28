@@ -10,7 +10,7 @@ $error = $_SESSION['error'] ?? '';
 </head>
 <body>
     <div class="login-container">
-        <h1>Chat Login</h1>
+        <h1>Войти</h1>
         <?php if (isset($error)): ?>
             <div class="error"><?= htmlspecialchars($error) ?></div>
             <?php unset($error); ?>
@@ -18,7 +18,7 @@ $error = $_SESSION['error'] ?? '';
         <form action="/login" method="post">
             <input type="text" name="username" placeholder="Username" required>
             <input type="password" name="password" placeholder="Password" required>
-            <button type="submit">Login</button>
+            <button type="submit">Вход</button>
         </form>
     </div>
 </body>

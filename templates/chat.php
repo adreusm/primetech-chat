@@ -13,7 +13,7 @@ $isAdmin = $_SESSION['role'] === 'admin' ? 'true' : 'false';
 <body>
     <div class="chat-container">
         <header>
-            <h1>Здравствуйте, <?= htmlspecialchars($username) ?>!</h1>
+            <h1>Пользователь: <?= htmlspecialchars($username) ?></h1>
             <a href="/logout" class="logout-btn">Logout</a>
         </header>
         
